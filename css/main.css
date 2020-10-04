@@ -154,7 +154,7 @@ footer {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  }
+}
 
 header {
   padding: 15px 0;
@@ -226,18 +226,24 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-
 }
 
 footer .social-icons p {
+  background-color: #527158;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+footer .social-icons p i {
+  font-size: 1.313em;
+}
+
 footer .copyright {
   margin: 20px 0;
-  justify-content: center;
 
 }
 
@@ -325,7 +331,7 @@ input[type=button] {
   flex-flow: row wrap;
 }
 
-.features i{
+.features i {
   font-size: 3.75em;
   margin-bottom: 30px;
 }
@@ -654,6 +660,11 @@ input[type=button] {
 
     footer p {
         line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
 
     footer .copyright {
