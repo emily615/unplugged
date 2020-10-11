@@ -102,6 +102,8 @@ textarea {
    ul,
    ol {
      list-style-type: none;
+     margin:0;
+     padding:0;
    }
 
    a {
@@ -130,7 +132,6 @@ textarea {
 
    img {
      width: 100%;
-
    }
 
    figure {
@@ -192,7 +193,6 @@ header nav {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.125em;
-  line-height: 0;
 }
 
 header nav ul {
